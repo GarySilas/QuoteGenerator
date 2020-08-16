@@ -1,6 +1,6 @@
 const quoteContainer = document.getElementById('quoteContainer');
 const quoteText = document.getElementById('quoteText');
-const authorText = document.getElementById('authorText');
+const authorText = document.getElementById('quoteAuthorText');
 const twitterBtn = document.getElementById('twitterBtn');
 const newQuoteBtn = document.getElementById('newQuoteBtn');
 const loader = document.getElementById('loader');
@@ -47,7 +47,7 @@ async function getQuoteFromAPI() {
     try {
 
         // Fetch a response (or data) from API
-        const response = await fetch(proxyURL+ apiURL);
+        const response = await fetch(proxyURL + apiURL);
 
         // Convert response (or data) to json format
         const data = await response.json();
@@ -55,7 +55,7 @@ async function getQuoteFromAPI() {
         console.log(data);
 
         // If quoteAuthor has no data...
-        if (data.quoteAuthor === '') {
+        if (data.authorText === '') {
             // add 'unknown'
             authorText.innerText = 'Unknown';
         }
@@ -66,9 +66,11 @@ async function getQuoteFromAPI() {
 
         // Reduce font size for long quotes
         if (data.quoteText.length > 120) {
+            // Add long-quote class
             quoteText.classList.add('long-quote');
         }
         else {
+            // Remove long-quote class
             quoteText.classList.remove('long-quote');
         }
 

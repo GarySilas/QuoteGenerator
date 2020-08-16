@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e226154-647e-495d-b4dd-eb5abd68cb20" name="Default Changelist" comment="" />
+    <list default="true" id="5e226154-647e-495d-b4dd-eb5abd68cb20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1g9s1fYySmJm21erVobJcnFqsaK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,15 +37,39 @@
       <option name="presentableId" value="Default" />
       <updated>1597537929314</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1597538616648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597538616648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="902" y="365" key="#Inspections" timestamp="1597540199267">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="902" y="365" key="#Inspections/0.0.2560.1440@0.0.2560.1440" timestamp="1597540199267" />
+    <state x="495" y="0" width="1711" height="1440" key="CommitChangelistDialog2" timestamp="1597538616262">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="495" y="0" width="1711" height="1440" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1597538616262" />
     <state x="460" y="96" key="SettingsEditor" timestamp="1597538462734">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="460" y="96" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1597538462734" />
+    <state x="580" y="266" key="Vcs.Push.Dialog.v2" timestamp="1597538640867">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="580" y="266" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1597538640867" />
   </component>
 </project>
